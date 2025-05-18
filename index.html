@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">My Smart Profile</a>
+                 <button id="themeToggle" class="btn btn-outline-light ms-3" aria-label="Toggle theme">
+                Toggle theme
+            </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fun.html">Fun</a></li>
+                    <li class="nav-item"><a class="nav-link" href="smart.html">Smart</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="py-5 text-white text-center bg-dark">
+      <div class="container">
+         <h1>Welcome to My Profile</h1>
+        <p class="lead">Explore my work, skills, and journey as a developer.</p>
+      </div>
+    </header>
+    <main class="container my-5">
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <h2 class="mb-3">Welcome to My profile</h2>
+                <p class="lead">Passionate developer with expertise in modern web technologies. Specializing in .Net Core</p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/8.jpg" alt="Profile Image" class="img-fluid rounded shadow">
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-12">
+                <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/5.jpg" class="d-block w-100" alt="Project 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/4.jpg" class="d-block w-100" alt="Project 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/1.jpg" class="d-block w-100" alt="Project 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+  <footer class="bg-dark text-center text-white py-3 mt-auto">
+    <div class="container">MCS_WP1_F24_C2_obada_339168</div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
